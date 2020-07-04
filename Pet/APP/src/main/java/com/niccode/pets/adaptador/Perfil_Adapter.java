@@ -35,13 +35,6 @@ public class Perfil_Adapter  extends RecyclerView.Adapter<Perfil_Adapter.PerfilV
         Perfilholder.imgFoto.setImageResource(mascotas.getFoto());
         Perfilholder.tvLikes.setText(String.valueOf(mascotas.getLikes()));
 
-        Perfilholder.imgFoto.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Perfilholder.imgFotoperfil.setImageResource(mascotas.getFoto());
-                Perfilholder.tvNombrePerfil.setText(mascotas.getNombre());
-            }
-        });
 
     }
 
